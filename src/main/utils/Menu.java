@@ -46,14 +46,11 @@ public class Menu {
         String password = project.get("password");
         System.out.println("正在连接服务："+ host + " ，请您稍等......");
         try {
-            /**
             ChannelSftp sftp = SftpUtil.getSftpConnect(host,22,hostName,password);
             System.out.println("第1步：正在上传项目"+project.get("nameCh")+"，请耐心等待.....");
             String localPath = project.get("localPath") + project.get("proName");
             Integer code = SftpUtil.uploadFile(localPath, project.get("path"), project.get("proName"), sftp);
             SftpUtil.exit(sftp);
-            */
-            Integer code = 0;
             if(code.intValue() == 0){
                 System.out.println("第2步：项目上传完毕,正在部署项目，请耐心等待.....");
                 LinuxUtil.runIt(project);
@@ -64,11 +61,10 @@ public class Menu {
             System.err.println("5秒后退出程序！！！");
             Thread.sleep(5000L);
             System.exit(0);
-            /**
         } catch (JSchException e) {
             e.printStackTrace();
         } catch (SftpException e) {
-            e.printStackTrace();*/
+            e.printStackTrace();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
