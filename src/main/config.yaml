@@ -9,7 +9,7 @@ projects:
     localPath: D:/WORK/WORKSPACE/talkfxroot/competition/target/
     host: 192.168.2.41
     hostName: root
-    password: rootroot
+    password: 12345678910
   datacenter:
     sort: "2"
     type: jar
@@ -20,7 +20,7 @@ projects:
     localPath: D:/WORK/WORKSPACE/talkfxroot/datacenter/target/
     host: 192.168.2.41
     hostName: root
-    password: rootroot
+    password: 12345678910
   eureka-server:
     sort: "3"
     type: jar
@@ -31,7 +31,7 @@ projects:
     localPath: D:/WORK/WORKSPACE/talkfxroot/eureka-server/target/
     host: 192.168.2.41
     hostName: root
-    password: rootroot
+    password: 12345678910
   talkapi:
     sort: "4"
     type: jar
@@ -42,7 +42,7 @@ projects:
     localPath: D:/WORK/WORKSPACE/talkapi/target/
     host: 192.168.2.184
     hostName: root
-    password: rootroot
+    password: 12345678910
   jenkins:
     sort: "5"
     type: war
@@ -56,4 +56,4 @@ projects:
     javaPath: /usr/local/java/jdk
     host: 192.168.2.184
     hostName: root
-    password: rootroot
+    password: 12345678910
