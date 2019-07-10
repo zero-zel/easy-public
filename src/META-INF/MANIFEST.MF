@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: snakeyaml-1.13.jar jsch-0.1.54.jar commons-lang-2.6.jar ga
+ nymed-ssh2-262.jar
+Main-Class: main.AppMain
+
+

@@ -1,0 +1,59 @@
+projects:
+  competition:
+    sort: "1"
+    type: jar
+    nameCh: 实盘大赛
+    name: competition
+    path: /usr/talkfx/competition/
+    proName: competition-0.0.1-SNAPSHOT.jar
+    localPath: D:/WORK/WORKSPACE/talkfxroot/competition/target/
+    host: 192.168.2.41
+    hostName: root
+    password: rootroot
+  datacenter:
+    sort: "2"
+    type: jar
+    nameCh: 数据中心
+    name: datacenter
+    path: /usr/talkfx/datacenter/
+    proName: datacenter-0.0.1-SNAPSHOT.jar
+    localPath: D:/WORK/WORKSPACE/talkfxroot/datacenter/target/
+    host: 192.168.2.41
+    hostName: root
+    password: rootroot
+  eureka-server:
+    sort: "3"
+    type: jar
+    nameCh: 注册中心
+    name: eureka-server
+    path: /usr/talkfx/eureka-server/
+    proName: eureka-server-0.0.1-SNAPSHOT.jar
+    localPath: D:/WORK/WORKSPACE/talkfxroot/eureka-server/target/
+    host: 192.168.2.41
+    hostName: root
+    password: rootroot
+  talkapi:
+    sort: "4"
+    type: jar
+    nameCh: 新韬客
+    name: talkapi
+    path: /service/talkapi/
+    proName: talkapi-0.0.1-SNAPSHOT.jar
+    localPath: D:/WORK/WORKSPACE/talkapi/target/
+    host: 192.168.2.184
+    hostName: root
+    password: rootroot
+  jenkins:
+    sort: "5"
+    type: war
+    nameCh: 自动化部署
+    name: jenkins
+    path: /service/tomcat-jenkins/webapps/
+    proName: jenkins.war
+    localPath: C:/Users/Administrator/Desktop/media/
+    tomcatPath: /service/tomcat-jenkins/
+    tomcatName: tomcat-jenkins
+    javaPath: /usr/local/java/jdk
+    host: 192.168.2.184
+    hostName: root
+    password: rootroot
